@@ -12,9 +12,7 @@ wss.on('connection', function connection(ws) {
           if (client !== ws && client.readyState === ws.OPEN) {
               client.send('New data!');
           }
-
+            
         });
-
     });
-    
 });
