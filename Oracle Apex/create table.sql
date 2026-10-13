@@ -1,1 +1,9 @@
- create table request(id number, name varchar2(200), details varchar2(1000),status number,date_create date,user_create varchar2(50));
+  CREATE TABLE "REQUEST" 
+   (	"ID" NUMBER, 
+	"NAME" VARCHAR2(200), 
+	"DETAILS" VARCHAR2(1000), 
+	"STATUS" NUMBER, 
+	"DATE_CREATE" DATE, 
+	"USER_CREATE" VARCHAR2(50), 
+	"PRIORITY" NUMBER
+   ) ;
