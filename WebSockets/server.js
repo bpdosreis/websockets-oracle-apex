@@ -6,7 +6,7 @@ const { Server } = require("socket.io");
 
 const io = new Server(server, {
     cors: {
-        origin: 'https://g44d853b39c3572-bpdrapex.adb.ca-montreal-1.oraclecloudapps.com',
+        origin: 'https://your-apex-instance.example.com',
         methods: ['GET','POST'],
         credentials: true
     }
